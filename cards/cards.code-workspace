@@ -1,0 +1,57 @@
+{
+	"folders": [
+		{
+			"path": "/Sites/GoCasts/my-code/cards"
+		}
+	],
+	"settings": {
+		"go.gotoSymbol.includeGoroot": true,
+		"go.gotoSymbol.includeImports": true,
+		"go.playground": {
+			"openbrowser": true,
+			"share": true,
+			"run": true
+		},
+		"go.lintOnSave": "file",
+		"go.useLanguageServer": true,
+		"go.languageServerExperimentalFeatures": {
+			"format": false,
+			"autoComplete": true,
+			"rename": true,
+			"goToDefinition": true,
+			"hover": true,
+			"signatureHelp": true,
+			"goToTypeDefinition": true,
+			"goToImplementation": true,
+			"documentSymbols": true,
+			"workspaceSymbols": true,
+			"findReferences": true,
+			"diagnostics": true,
+			"documentLink": true,
+			"highlight": true
+		},
+		"go.lintFlags": [
+			"--fast"
+		],
+		"go.testFlags": [
+			"-v"
+		],
+		"go.autocompleteUnimportedPackages": true,
+		"[go]": {
+			"editor.codeActionsOnSaveTimeout": 3000,
+			"editor.snippetSuggestions": "none",
+			"editor.formatOnSave": true,
+			"editor.codeActionsOnSave": {
+				"source.organizeImports": false
+			}
+		},
+		"gopls": {
+			"usePlaceholders": true, // add parameter placeholders when completing a function
+			// Experimental settings
+			"completeUnimported": true, // autocomplete unimported packages
+			"watchFileChanges": true, // watch file changes outside of the editor
+			"deepCompletion": true, // enable deep completion
+		},
+		"files.eol": "\n", // formatting only supports LF line endings
+	}
+}
